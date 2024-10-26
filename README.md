@@ -31,7 +31,7 @@ The dataset contain 5 tables with information about game users:
    age - age of each user.
 5. [games(2.0)](https://docs.google.com/spreadsheets/d/1bVIW2UmfZl5KIbePGAqryYcR2BQvxx5Vm0yLxGx7rGQ/edit?usp=sharing) - comparison of games:
    game_name - name of the game;
-   Ad spend advertising spends
+   Ad spend - advertising spends;
    Total users count - number of users.
    
 ## Tools
