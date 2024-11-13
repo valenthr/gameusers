@@ -2,7 +2,8 @@
 
 All analysis:
 * [there](https://docs.google.com/spreadsheets/d/1nDF6XyUX4lqK0IlGMc0MSp06uWr8jsFb9h3P3jtiQMI/edit?usp=sharing) - of games, paid users and purchases;
-* [there](https://docs.google.com/spreadsheets/d/1CHVbDpb-Syuoy5tXE9nvRSnrsW2KwkiVi8j379J8V6o/edit?usp=sharing) - of active users and activity.
+* [there](https://docs.google.com/spreadsheets/d/1CHVbDpb-Syuoy5tXE9nvRSnrsW2KwkiVi8j379J8V6o/edit?usp=sharing) - of active users and activity;
+* [there](https://public.tableau.com/views/Userbehavior_17304136272530/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) - engagement analysis.
   
 ## About data
 
@@ -36,7 +37,7 @@ The dataset contain 5 tables with information about game users:
    
 ## Tools
 
-Google Sheets
+Google Sheets, Tableau
 
 ## Purpose
 
@@ -84,6 +85,12 @@ For each day was calculated DAU, for each week - WAU and stickiness DAU/WAU. The
 
 Also were made the cohort analysis of user's retention activity month for active and paid users.
 
+## Engagement analysis
+
+1. Was made a heat table showing the average time per user by quarter and age.
+2. Was showed the dynamics of changes in the average time in the game for each month.
+3. Were displayed the dynamics of changes in the number of active users during the year and changes in the share of users who used the "battle pass" mode.
+
 ## Insights
 1. The most used and sold game is game 3 - almost all paid and non-paid users are players of game 3. It also has a 5 times higher CR to paid and ARPPU.
 2. Against this background, the only game stands out negatively, which did not recoup even 10% of its advertising costs - game 2. It means that for Game 2, the priority at this stage is not advertising spend, but spending on product quality.
@@ -93,3 +100,7 @@ Also were made the cohort analysis of user's retention activity month for active
 6. DAU gradually increased throughout the year, but dropped significantly at the end of the year. It can be associated with Christmas. DAU/WAU remained roughly flat throughout the year, but dropped sharply in early March and then returned to normal values. There is a hypothesis that stickiness decreased due to the celebration of International Women's Day
 7. Cohort analysis (for active users) revealed that user retention is roughly equal each month, with 1 exception - in July, retention after 1 month dropped sharply to half, but then almost no one dropped out from this cohort. It means that exactly for July users there were not enough interesting events during the first month of the game.
 8. With the help of a cohort analysis of retention of paid users, 2 zones of the largest dropout of paying users were established - after the first month (which was expected) and after seventh months after making the first purchase. It means that at the time of 7 months after the first purchase, the games are not able to give the user such a paid product that he would like to pay for.
+9. Users under 25 spend the most time in the game: in all quarters, the average time per user varies from 198 hours 25 minutes in the 3rd quarter for the 15-20 age group to 336:07 in the 2nd quarter for the 10-15 age group (note - data  for the 1st quarter are incomplete, as the data starts from March).  In all cohorts older than 25 years, the average time decreases sharply (in most cohorts, the average time rarely reaches even 60 hours).  
+10. An identified problem in data collection is that the average time for the 80-85-year-old cohort is 248 hours, which is a clear outlier.  Hypothesis - underage users set themselves the maximum possible age when registering in the game.  
+11. Users under 20 spend significantly less time in the game in Q3 compared to Q1 and Q3.  Looking at the average time per user for each month, we can see that users spend the least amount of time in the game between July and September.  The hypothesis is that it is related to the seasonality of their studies.  
+12. Throughout the year, we see a gradual increase in the number of users from 47 in March to 155 in November and a slight decrease in December to 150. At the same time, users are gradually moving away from the battle pass mode - the share of users who played it decreases from 76% in  April to 50% in December (with the exception of March - 56%).
