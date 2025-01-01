@@ -9,31 +9,31 @@ All analysis:
 
 The dataset contain 5 tables with information about game users:
 1. [games_payments (2.0)](https://docs.google.com/spreadsheets/d/1jXQeUYch2KtZEOw-m7BqVpDaSUV0YqKZiK9stmPkl7o/edit?usp=sharing) - data about game purchases:
-   user_id - unique id of each user;
-   game_name - name of the game (there are only game 1, game 2 and game 3);
-   payment_date - date of purchase;
-   revenue_amount_usd - revenue per purchase in USD.
+* user_id - unique id of each user; 
+* game_name - name of the game (there are only game 1, game 2 and game 3);
+* payment_date - date of purchase;
+* revenue_amount_usd - revenue per purchase in USD.
 2. [games_paid_users](https://docs.google.com/spreadsheets/d/1UiiFHE2pJ17Rllac7przdDOyXBXW4OGVubBD5eaoC7o/edit?usp=sharing) - data about users, who has made a purchase:
-   user_id - unique id of each user;
-   game_name - name of the game;
-   language - user's language;
-   has_older_device_model - boolean value (if user plays in old device then "TRUE", if user plays in new device then "FALSE");
-   age - age of each user.
+* user_id - unique id of each user;
+* game_name - name of the game;
+* language - user's language;
+* has_older_device_model - boolean value (if user plays in old device then "TRUE", if user plays in new device then "FALSE");
+* age - age of each user.
 3. [activity](https://docs.google.com/spreadsheets/d/1yrGRYWPMh-Oa1LMGRvI8M1o9QO9_YysmOZ4WPPORAnY/edit?usp=sharing) - data about attendance at games:
-   user_id - unique id of each user;
-   activity_date - date of visit;
-   game_activity_name - combined column of name of the game and activity, in which user play (later was divided into 2 columns - game and activity_name);
-   total_seconds - length of session.
+* user_id - unique id of each user;
+* activity_date - date of visit;
+* game_activity_name - combined column of name of the game and activity, in which user play (later was divided into 2 columns - game and activity_name);
+* total_seconds - length of session.
 4. [active_users](https://docs.google.com/spreadsheets/d/1yrGRYWPMh-Oa1LMGRvI8M1o9QO9_YysmOZ4WPPORAnY/edit?usp=sharing) - data about players, who visit games regularly:
-   user_id - unique id of each user;
-   game_name - name of the game;
-   language - user's language;
-   has_older_device_model - boolean value (if user plays in old device then "TRUE", if user plays in new device then "FALSE");
-   age - age of each user.
-5. [games(2.0)](https://docs.google.com/spreadsheets/d/1bVIW2UmfZl5KIbePGAqryYcR2BQvxx5Vm0yLxGx7rGQ/edit?usp=sharing) - comparison of games:
-   game_name - name of the game;
-   Ad spend - advertising spends;
-   Total users count - number of users.
+* user_id - unique id of each user;
+* game_name - name of the game;
+* language - user's language;
+* has_older_device_model - boolean value (if user plays in old device then "TRUE", if user plays in new device then "FALSE");
+* age - age of each user.
+6. [games(2.0)](https://docs.google.com/spreadsheets/d/1bVIW2UmfZl5KIbePGAqryYcR2BQvxx5Vm0yLxGx7rGQ/edit?usp=sharing) - comparison of games:
+* game_name - name of the game;
+* Ad spend - advertising spends;
+* Total users count - number of users.
    
 ## Tools
 
